@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GrafoGUI">
+  <grid id="27dc6" binding="pGeneral" layout-manager="GridLayoutManager" row-count="17" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="518" height="640"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b187" class="javax.swing.JTable" binding="tbMatrizadyacencia">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f5a4d" class="javax.swing.JTextArea" binding="txtResultado">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="98d04" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Agregar Vértice"/>
+        </properties>
+      </component>
+      <component id="70831" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="6de96" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="y"/>
+        </properties>
+      </component>
+      <component id="15ffc" class="javax.swing.JButton" binding="agregarVérticeButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Agregar Vértice"/>
+        </properties>
+      </component>
+      <component id="f6d2e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Agregar Lado"/>
+        </properties>
+      </component>
+      <component id="5d11d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="V1"/>
+        </properties>
+      </component>
+      <component id="2f84b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="V2"/>
+        </properties>
+      </component>
+      <component id="5197b" class="javax.swing.JButton" binding="agregarLadoButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Agregar Lado "/>
+        </properties>
+      </component>
+      <component id="2f2d" class="javax.swing.JTextField" binding="txtX">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="189" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bd100" class="javax.swing.JTextField" binding="txtY">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="189" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c093" class="javax.swing.JTextField" binding="txtV1">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="189" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5d2e9" class="javax.swing.JTextField" binding="txtV2">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="189" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="4160d" binding="pGrafo" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="5" row-span="14" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="6602f" class="javax.swing.JButton" binding="dibujarGrafoButton" default-binding="true">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dibujar Grafo"/>
+        </properties>
+      </component>
+      <hspacer id="76890">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8e04e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Recorrido BFS y DFS"/>
+        </properties>
+      </component>
+      <component id="c9978" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="V. Inicio"/>
+        </properties>
+      </component>
+      <component id="1584d" class="javax.swing.JButton" binding="BFSButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BFS"/>
+        </properties>
+      </component>
+      <component id="8f8f8" class="javax.swing.JTextField" binding="txtInicio">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="aaa7b" class="javax.swing.JButton" binding="DFSButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DFS"/>
+        </properties>
+      </component>
+      <component id="6acc0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Matriz de Adyacencia"/>
+        </properties>
+      </component>
+      <component id="fb205" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Resultado"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
